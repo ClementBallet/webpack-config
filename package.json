@@ -1,0 +1,21 @@
+{
+  "name": "gsap-starter",
+  "version": "1.0.0",
+  "description": "--- ## Contexte",
+  "private": true,
+  "scripts": {
+    "watch-sass": "node-sass styles/scss/main.scss styles/css/main.css --watch",
+    "dev": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "gsap": "^3.11.1"
+  }
+}
